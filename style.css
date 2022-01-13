@@ -1,0 +1,10 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+}
+
+nav a{
+    font-size: 3em;
+}
