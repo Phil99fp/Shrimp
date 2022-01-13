@@ -1,0 +1,58 @@
+body{
+    background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/11/25/14/terroshrimpcloseupscares.jpg?width=1368&auto=webp&quality=75');
+    background-color: black;
+    background-position: top right;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+body, h1, .h1{
+    font-family: 'Lato', Segoe UI, sans-serif !important;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+}
+
+h1{
+    font-size: 100px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav a{
+    font-size: 3em;
+}
+
+main{
+    height: 65vh;
+    margin: 0 8%;
+}
+
+.callout{
+    background: none;
+    text-align: right;
+    border: none;
+}
+
+.callout > *{
+    color: white;
+}
+
+.callout > h5{
+    text-align: left;
+}
+
+.callout > p{
+    font-size: 75px;
+}
+
+.callout > a{
+    font-size: 40px;
+}
